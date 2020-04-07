@@ -18,7 +18,14 @@ import { AboutComponent } from './containers/about/about.component';
 import { PrivacyComponent } from './containers/privacy/privacy.component';
 
 const config = {
-  ...environment.firebaseConfig,
+  apiKey: "AIzaSyAglB_jlyocm0ehuwM_M4552FjPVOYzkJk",
+  authDomain: "forum-local-test.firebaseapp.com",
+  databaseURL: "https://forum-local-test.firebaseio.com",
+  projectId: "forum-local-test",
+  storageBucket: "forum-local-test.appspot.com",
+  messagingSenderId: "134793263930",
+  appId: "1:134793263930:web:117505c74eda373397ae03",
+  measurementId: "G-ZD822JF8GC"
 };
 
 @NgModule({
